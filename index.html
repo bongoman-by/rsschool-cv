@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <div>
+        <p class="logo"><img src="/images/rasta2.jpg" alt="my avatar">
+            </img></p>
+    </div>
+</header>
+<body>
+    <main class="text">
+        <h3>Sergey Klyuchnkov</h3>
+        <p><strong>Contacts: </strong>mail: bongoman@tut.by, github: bongoman-by, skype: bongoman</p>
+        <p><strong>About me: </strong>I want to go from 1C development to fullstack development</p>
+        <p><strong>Skills: </strong>1C:Enterprise, PHP, Yii2</p>
+        <p><strong>Example of code: </strong><code>class Slider {
+                constructor(slides, key, extension, path) {
+                this.img = path + '/' + slides[key] + '.' + extension;
+                this.length = slides.length;
+                this.key = key - 1;
+                this.alt = slides[key - 1];
+                this.current = (key < 10) ? '0' + (key + 1) : '' + key; this.total=(this.length < 10) ? '0' +
+                    (this.length) : '' + this.length; } getCounter() { return `&ltspan id="current">
+                    ${this.current}&lt/span&gt;/&ltspan&gt; id="total"&gt;${this.total}&lt/span&gt;`
+                    ;
+                    }
+
+                    getWrapper() {
+                    return `
+                    &ltdiv class="offer__slider-wrapper"&gt;
+                    &ltdiv class="offer__slide"&gt;
+                    &ltimg src="${this.img}" alt="${this.alt}"&gt;
+                    &lt/div>
+                    &lt/div>`;
+                    }
+
+                    render() {
+                    slider.innerHTML = "";
+                    sliderCounter.innerHTML = "";
+
+                    if (this.key != 0) {
+                    sliderCounter.append(prev);
+                    }
+                    let element1 = document.createElement('div');
+                    element1.innerHTML = this.getCounter();
+                    sliderCounter.append(element1);
+                    if (this.key != this.length - 1) {
+                    sliderCounter.append(next);
+                    }
+
+                    slider.append(sliderCounter);
+
+                    let element2 = document.createElement('div');
+                    element2.innerHTML = this.getWrapper();
+                    slider.append(element2);
+                    }
+                    }</code></p>
+        <p><strong>Education: </strong>https://php-up.com/</p>
+        <p><strong>Portfolio: </strong><a href="https://images.roots.of.by/user/default/login">images.roots.of.by</a></p>
+        <p><strong>Language: </strong>english A1</p>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+<footer>
+</footer>
+</html>
