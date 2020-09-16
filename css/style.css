@@ -2,5 +2,8 @@ img {
     border-radius: 50%;
 }
 .logo {
-    display: flex;
+    text-align: center;
+}
+.text {
+    text-align: center;
 }
