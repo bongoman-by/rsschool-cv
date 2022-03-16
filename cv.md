@@ -1,6 +1,6 @@
 # Sergey Klyuchnkov
 
-![My photo](/../rsschool-cv-html/assets/photo/1.jpg)
+![My photo](/../main/assets/photo/6.jpg)
 
 **Junior Fullstack Developer**
 
@@ -57,11 +57,11 @@ return string.split('').reduce((acc, n) => (acc[n] = (acc[n] || 0) + 1, acc), {}
 
   - [on My Github](https://github.com/bongoman-by/angular-adv)
   - [Site of the project](https://app-admin-pro.herokuapp.com/login)
-    ![certificate](AngularAvanzado.jpg)
+    ![certificate](/../main/assets/courses/angular-avanzado.jpg)
 
 - [Angular - The Complete Guide (2022 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/17862122?start=45#overview)
   - [Site of the project](https://course-recipe-book-f565d.web.app/auth)
-    ![certificate](AngularTheCompleteGuide.jpg)
+    ![certificate](/../main/assets/courses/angular-complete-guide.jpg)
 
 ---
 
