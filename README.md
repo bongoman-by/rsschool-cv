@@ -1,2 +1,1 @@
-# rsschool-cv
-task CV#1. Markdown &amp; Git  - create сurriculum vitae
+https://bongoman-by.github.io/rsschool-cv/cv
