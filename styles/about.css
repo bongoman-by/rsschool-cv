@@ -1,0 +1,91 @@
+.about {
+  min-height: 30rem;
+}
+.about__wrapper {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-areas:
+    "side head"
+    "side foot";
+  column-gap: 3rem;
+  margin: 12rem 10rem auto 0;
+}
+
+.about__photo {
+  grid-area: side;
+}
+
+.about__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__text {
+  grid-area: head;
+  padding-top: 0.5rem;
+}
+
+.about__descr {
+  margin-top: 20px;
+}
+
+.about__skills-wrapper {
+  grid-area: foot;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 25px;
+}
+
+.about__skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.about__skill__icon {
+  position: relative;
+  padding-left: 17px;
+  padding-top: 11px;
+  z-index: 2;
+}
+
+.about__skill__icon:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: var(--main-color);
+  top: 0;
+}
+
+.about__skill__title {
+  padding-left: 20px;
+}
+
+.about__skill__descr {
+  padding-left: 20px;
+}
+
+.about_subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+.about_subtitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: var(--main-color);
+}

@@ -1,0 +1,43 @@
+.promo {
+  min-height: 100vh;
+  position: relative;
+  background: url("https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/2.jpg")
+    no-repeat 50% / cover;
+  padding-top: 206px;
+  padding-left: 50px;
+}
+
+.promo__title {
+  width: 45rem;
+  margin-top: 1rem;
+}
+
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+.promo__subtitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: var(--main-color);
+}
+
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.promo__link:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
