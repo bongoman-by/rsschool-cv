@@ -1,1 +1,1 @@
-https://bongoman-by.github.io/rsschool-cv/cv
+https://bongoman-by.github.io/rsschool-cv-html
