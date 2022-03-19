@@ -1,8 +1,7 @@
 .promo {
   min-height: 100vh;
   position: relative;
-  background: url("https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/2.jpg")
-    no-repeat 50% / cover;
+  background-color: var(--color-grey-100);
   padding-top: 206px;
   padding-left: 50px;
 }
