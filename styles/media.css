@@ -114,6 +114,10 @@
     width: 260px;
   }
 
+  .promo__contacts {
+    flex-direction: column;
+  }
+
   .about__wrapper {
     grid-template-columns: 1fr;
     grid-template-areas:
