@@ -6,6 +6,10 @@
   padding-left: 50px;
 }
 
+.promo__wrapper {
+  display: flex;
+}
+
 .promo__title {
   width: 45rem;
   margin-top: 1rem;
