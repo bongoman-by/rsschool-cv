@@ -1,7 +1,16 @@
 .sidepanel {
   position: fixed;
-  top: 230px;
-  left: 50px;
+  top: 10rem;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+  z-index: 3;
+  align-items: center;
+}
+
+.sidepanel_social {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,10 +30,7 @@
 }
 
 .sidepanel__text span {
-  transform: rotate(-90deg) translate(-30%, -305%);
+  transform: rotate(-90deg) translate(-20%, -60%);
   display: block;
-  width: 150px;
-}
-.sidepanel__link:hover path {
-  fill: var(--main-color);
+  width: 50px;
 }

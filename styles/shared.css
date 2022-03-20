@@ -33,8 +33,10 @@ body {
   margin-top: 1rem;
 }
 
-.svg-icons {
-  width: 20px;
-  height: 20px;
-  color: var(--text-color);
+.social__link {
+  text-decoration: none;
+}
+
+.social__link:hover path {
+  fill: var(--main-color);
 }

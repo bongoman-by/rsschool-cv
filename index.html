@@ -1,359 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <meta name="title" content="My portfolio" />
-    <meta
-      name="description"
-      content="Here you can see my projects and learn more about me"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/button.css" />
-    <link rel="stylesheet" href="styles/hamburger.css" />
-    <link rel="stylesheet" href="styles/sidepanel.css" />
-    <link rel="stylesheet" href="styles/promo.css" />
-    <link rel="stylesheet" href="styles/about.css" />
-  </head>
-  <body>
-    <aside class="sidepanel">
 
-  <a href="https://www.facebook.com/profile.php?id=100010920397922" class="contacts__link">
-    <img class="svg-icons" src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/facebook.svg" alt="facebook">
-</a>
-<a href="https://t.me/bongomanES" class="contacts__link">
-    <img class="svg-icons" src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/telegram.svg" alt="telegram">
-</a>
-<a href="https://github.com/bongoman-by" class="contacts__link">
-    <img class="svg-icons" src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/github.svg" alt="github">
-</a>
-<a href="https://www.linkedin.com/in/sergey-klyuchnikov-948999141" class="contacts__link">
-  <img class="svg-icons" src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/linkedin.svg" alt="LinkedIn">
-</a>
-<a href="https://discord.gg/sFV4uTJY" class="contacts__link">
-  <img class="svg-icons" src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/discord.svg" alt="discord">
-</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="title" content="My portfolio" />
+  <meta name="description" content="Here you can see my projects and learn more about me" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="styles/shared.css" />
+  <link rel="stylesheet" href="styles/fonts.css" />
+  <link rel="stylesheet" href="styles/button.css" />
+  <link rel="stylesheet" href="styles/menu.css" />
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/sidepanel.css" />
+  <link rel="stylesheet" href="styles/promo.css" />
+  <link rel="stylesheet" href="styles/about.css" />
+  <link rel="stylesheet" href="styles/resume.css" />
+  <link rel="stylesheet" href="styles/skills.css" />
+  <link rel="stylesheet" href="styles/portfolio.css" />
+  <link rel="stylesheet" href="styles/code.css" />
+  <link rel="stylesheet" href="styles/languages.css" />
+  <link rel="stylesheet" href="styles/contacts.css" />
+  <link rel="stylesheet" href="styles/media.css" />
 
-      <div class="sidepanel__divider"></div>
-      <div class="sidepanel__text title_fz14"><span>Социальные сети</span></div>
+  <script type="module" src="/scripts/app.js" defer></script>
+</head>
+
+<body>
+  <aside class="sidepanel">
+    <div class="social-icons sidepanel_social"></div>
+    <div class="sidepanel__divider"></div>
+    <div class="sidepanel__text title_fz14"><span>Social</span></div>
   </aside>
-  <div class="menu">
-      <div class="menu__block">
-          <div class="menu__close">
-              <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                      d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
-                      fill="black" />
-              </svg>
-          </div>
-          <nav>
-              <ul class="menu__list">
-                  <li class="menu__link"><a href="#">Profile</a></li>
-                  <li class="menu__link"><a href="#">Employment history</a></li>
-                  <li class="menu__link"><a href="#">Skills</a></li>
-                  <li class="menu__link"><a href="#">Education and courses</a></li>
-                  <li class="menu__link"><a href="#">Code example</a></li>
-                  <li class="menu__link"><a href="#">Languages</a></li>
-                  <li class="menu__link"><a href="#">Contact information</a></li>
-              </ul>
-          </nav>
-          <div class="menu__social">
-              <a href="https://www.facebook.com/profile.php?id=100010920397922" class="contacts__link">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/facebook.svg" alt="facebook">
-              </a>
-              <a href="https://t.me/bongomanES" class="contacts__link">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/telegram.svg" alt="telegram">
-              </a>
-              <a href="https://github.com/bongoman-by" class="contacts__link">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/github.svg" alt="github">
-              </a>
-              <a href="https://www.linkedin.com/in/sergey-klyuchnikov-948999141" class="contacts__link">
-                <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/linkedin.svg" alt="LinkedIn">
-              </a>
-              <a href="https://discord.gg/sFV4uTJY" class="contacts__link">
-                <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/discord.svg" alt="discord">
-              </a>
-          </div>
-      </div>
-      <div class="menu__overlay"></div>
-  </div>
-  <aside class="hamburger">
-      <span></span>
-      <span class="long"></span>
-      <span></span>
-  </aside>
-    <section class="promo">
-      <div class="container">
-        <div class="title title_fz16 promo__subtitle">
-          Hi! I'm Sergey Klyuchnkov
-        </div>
-        <h1 class="title promo__title">Junior Fullstack Developer</h1>
-        <p>**Phone: +375297633331** **E-mail: s.klyuchnikoff@gmail.com**</p>
-        <div class="promo_btns">
-          <a href="#" class="promo__link btn btn_color title_fz14b">Skills</a>
-          <a href="#" class="promo__link btn title_fz14b">Profile</a>
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="container">
-        <div class="about__wrapper">
-          <div class="about__photo">
-            <img
-              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/6.jpg"
-              alt="my photo"
-            />
-          </div>
-          <div class="about__text">
-            <h2 class="title title_fz16 about_subtitle">Profile</h2>
-            <div class="title about__title">
-              I would like to move from 1C:Enterprise development to fullstack
-              development
-            </div>
-            <div class="divider"></div>
-            <p class="about__descr title_fz14">
-              I started programming in 1999 using the 1C-Enterprise 6.0 business
-              application. Then there was a period of work for two years as a
-              freelancer based on 1C-Enterprise 7.7. In the early 2000s and
-              until recently I worked as a financial director and at the same
-              time led the IT service. I was responsible for automating business
-              processes based on business applications 1C-Enterprise 7.7 and
-              1C-Enterprise 8.3. I set tasks for programmers and was involved in
-              code development and refactoring. For the last two years I have
-              been intensively studying web programming. What I like the most
-              about coding is the creative side of the process and the
-              satisfaction from the result of work, when a project is in
-              production and brings real benefits. > Usually I myself find a
-              solution to non-standard problems if others give up. I think that
-              > nowadays we need to spend less time writing code from scratch
-              and make the most of existing > services, libraries and
-              frameworks.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="resume">
-      <div class="container">
-        <h2 class="title title_fz16 title__section__title">
-          Employment history
-        </h2>
-        <div class="divider"></div>
-        <div class="resume__wrapper">
-          <div class="resume__column">
-            <ul>
-              <li>
-                <div class="resume__item">
-                  <div class="resume__item-head">
-                    <div class="resume__item-icon">
-                      <img
-                        src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/experience/designer.svg"
-                        alt="freelancer"
-                      />
-                    </div>
-                    <h4 class="title_fz14b">Freelancer</h4>
-                    <div class="resume__item-location title_fz12">
-                      2000-2002
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="resume__item">
-                  <div class="resume__item-head">
-                    <div class="resume__item-icon">
-                      <img
-                        src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/experience/developer.svg"
-                        alt="team-lead"
-                      />
-                    </div>
-                    <h4 class="title_fz14b">Front-End Developer</h4>
-                    <div class="resume__item-location title_fz12">
-                      <a href="https://akval.by/">LLC "Mebeson"</a> 2002-2021
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="skills">
-      <div class="container">
-          <h2 class="title title_fz16 title__section__title">Skills</h2>
-          <div class="title skills__subtitle">What I use in work</div>
-          <div class="divider"></div>
-          <div class="skills__wrapper">
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/html5.svg" alt="html5"></div>
-                  <h4 class="title_fz14b">HTML5</h4>
-              </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/css3.svg" alt="css3"></div>
-                  <h4 class="title_fz14b">css3</h4>
-             </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/js.svg" alt="js"></div>
-                  <h4 class="title_fz14b">Java Script</Script>
-                  </h4>
-              </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/jquery.svg" alt="angular"></div>
-                  <h4 class="title_fz14b">Angular</h4>
-              </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/react.svg" alt="react"></div>
-                  <h4 class="title_fz14b">React</h4>
-              </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/node.js.svg" alt="node.js"></div>
-                  <h4 class="title_fz14b">Node.js</h4>
-              </div>
-              <div class="skills__item">
-                  <div class="skills__item-icon"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/mongo.db.svg" alt="mongo.db"></div>
-                  <h4 class="title_fz14b">Mongo.db</h4>
-              </div>
-          </div>
-           </div>
-      </div>
-  </section>
-  <section class="portfolio">
-    <div class="container">
-        <h2 class="title title_fz16 title__section__title">Education and courses</h2>
-        <div class="divider"></div>
-        <div class="portfolio__wrapper">
-            <article>
-              <h3>App: Nx+Angular+Nest</h3>
-              <a href="https://www.youtube.com/channel/UCE8ux2eOsw_X7XVrI5mpYkg" class="portfolio__item">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/svvs.jpg" alt="App: Nx+Angular+Nest">
-              </a>
-              <a href="https://github.com/bongoman-by/svvs">On my github</a>
-            </article>
-            <article>
-              <h3>Music platform: Next+Nest+TS</h3>
-              <a href="https://www.youtube.com/watch?v=A0CfYSVzAZI" class="portfolio__item">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/music-platform.jpg" alt="Music platform">
-              </a>
-              <a href="https://github.com/bongoman-by/music-platform">On my github</a>
-            </article>
-            <article>
-              <h3>Barinb: Angular+NG+NGRX+JEST+RXJS</h3>
-              <a href="https://medium.com/fafnur/%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-angular-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-3dca4a11fe9" class="portfolio__item">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/barinb.gif" alt="Barinb">
-              </a>
-              <a href="https://github.com/bongoman-by/barinb">On my github</a>
-            </article>
-            <article>
-              <a href="https://app-admin-pro.herokuapp.com/login">
-                <h3>Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN</h3>
-              </a>
-              <a href="https://www.udemy.com/course/angular-avanzado-fernando-herrera/learn/lecture/8905606?start=0#overview" class="portfolio__item">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-avanzado.jpg" alt="Angular Avanzado">
-              </a>
-              <a href="https://github.com/bongoman-by/angular-adv">On my github</a>
-            </article>
-            <article>
-                 <h3>Angular - The Complete Guide (2022 Edition)</h3>
-              <a href="https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/17862122?start=45#overview" class="portfolio__item">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-complete-guide.jpg" alt="Angular - The Complete Guide">
-              </a>
-              <a href="https://course-recipe-book-f565d.web.app/auth">Site of project</a>
-            </article>
-        </div>
+  <header>
+    <div id="page-logo">
+      <a href="/">My Portfolio</a>
     </div>
-</section>
-<section class="about">
-  <div class="container">
-      <div class="about__wrapper">
-          <div class="about__text">
-              <h2 class="title title_fz16 about_subtitle">Code example</h2>
-              <div class="title about__title"><a href="https://www.codewars.com/kata/52efefcbcdf57161d4000091">Count characters in your string kata from codewars</a>The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}. What if the string is empty? Then the result should be empty object literal, {}.</div>
-              <div class="divider"></div>
-              <p class="about__descr title_fz14">function count (string) { return string.split('').reduce((acc, n) => (acc[n] = (acc[n] || 0) + 1, acc), {}); }</p>
-          </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <div class="menu">
+    <div class="menu__block">
+      <div class="menu__close">
+        <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+            fill="black" />
+        </svg>
       </div>
+      <nav>
+        <ul class="menu__list">
+          <li class="menu__link"><a href="#about">Profile</a></li>
+          <li class="menu__link"><a href="#resume">Employment history</a></li>
+          <li class="menu__link"><a href="#skills">Skills</a></li>
+          <li class="menu__link"><a href="#portfolio">Education and courses</a></li>
+          <li class="menu__link"><a href="#code">Code example</a></li>
+          <li class="menu__link"><a href="#languages">Languages</a></li>
+          <li class="menu__link"><a href="#contacts">Contact information</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons menu__social"></div>
+    </div>
+    <div class="menu__overlay"></div>
   </div>
-</section>
-<section class="Languages">
-  <div class="container">
+  <section class="promo" id="promo">
+    <div class="container">
+      <div class="title title_fz20 promo__subtitle">
+        Hi! I'm Sergey Klyuchnkov
+      </div>
+      <h1 class="title promo__title">Junior Fullstack Developer</h1>
+      <div class="promo__contacts">
+        <a href="mailto:s.klyuchnikoff@gmail.com" class="promo__phone title_fz16b">
+          <svg class="promo__svg">
+            <use
+              href="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/sprite.svg#icon-email">
+            </use>
+          </svg>
+          <span>s.klyuchnikoff@gmail.com</span>
+        </a>
+        <a href="tel:+375297633331" class="promo__phone title_fz16b">
+          <svg class="promo__svg">
+            <use
+              href="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/sprite.svg#icon-phone">
+            </use>
+          </svg>
+          <span>+375 (29) 763-33-31</span>
+        </a>
+      </div>
+      <div class="promo_btns">
+
+        <a href="#skills" class="promo__link btn title_fz16b">Skills</a>
+        <a href="#about" class="promo__link btn title_fz16b">Profile</a>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="about__photo">
+          <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/6.jpg" alt="my photo" />
+        </div>
+        <div class="about__text">
+          <h2 class="title title_fz16 about_subtitle">Profile</h2>
+          <div class="title about__title">
+            I would like to move from 1C:Enterprise development to fullstack
+            development
+          </div>
+          <div class="divider"></div>
+          <p class="about__descr title_fz14">
+            I started programming in 1999 using the 1C-Enterprise 6.0 business
+            application. Then there was a period of work for two years as a
+            freelancer based on 1C-Enterprise 7.7. In the early 2000s and
+            until recently I worked as a financial director and at the same
+            time led the IT service. I was responsible for automating business
+            processes based on business applications 1C-Enterprise 7.7 and
+            1C-Enterprise 8.3. I set tasks for programmers and was involved in
+            code development and refactoring. For the last two years I have
+            been intensively studying web programming. What I like the most
+            about coding is the creative side of the process and the
+            satisfaction from the result of work, when a project is in
+            production and brings real benefits. > Usually I myself find a
+            solution to non-standard problems if others give up. I think that
+            > nowadays we need to spend less time writing code from scratch
+            and make the most of existing > services, libraries and
+            frameworks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="resume" id="resume">
+    <div class="container">
+      <h2 class="title title_fz16 title__section__title">
+        Employment history
+      </h2>
+      <div class="divider"></div>
+      <div class="resume__wrapper">
+        <div class="resume__column">
+          <ul>
+            <li>
+              <div class="resume__item">
+                <div class="resume__item-head">
+                  <div class="resume__item-icon">
+                    <img
+                      src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/experience/designer.svg"
+                      alt="freelancer" />
+                  </div>
+                  <h4 class="title_fz14b">Freelancer</h4>
+                  <div class="resume__item-location title_fz14">
+                    2000-2002
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="resume__item">
+                <div class="resume__item-head">
+                  <div class="resume__item-icon">
+                    <img
+                      src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/experience/developer.svg"
+                      alt="team-lead" />
+                  </div>
+                  <h4 class="title_fz14b">Front-End Developer</h4>
+                  <div class="resume__item-location title_fz14">
+                    <a href="https://akval.by/">LLC "Mebeson"</a> 2002-2021
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="title title_fz16 title__section__title">Skills</h2>
+      <div class="title skills__subtitle">What I use in work</div>
+      <div class="divider"></div>
+      <div class="skills__wrapper">
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/html5.svg"
+              alt="html5"></div>
+          <h4 class="title_fz14b">HTML5</h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/css3.svg"
+              alt="css3"></div>
+          <h4 class="title_fz14b">css3</h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/js.svg" alt="js">
+          </div>
+          <h4 class="title_fz14b">Java Script</Script>
+          </h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/jquery.svg"
+              alt="angular"></div>
+          <h4 class="title_fz14b">Angular</h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/react.svg"
+              alt="react"></div>
+          <h4 class="title_fz14b">React</h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/node.js.svg"
+              alt="node.js"></div>
+          <h4 class="title_fz14b">Node.js</h4>
+        </div>
+        <div class="skills__item">
+          <div class="skills__item-icon"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/skills/mongo.db.svg"
+              alt="mongo.db"></div>
+          <h4 class="title_fz14b">Mongo.db</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="title title_fz16 title__section__title">Education and courses</h2>
+      <div class="divider"></div>
+      <div class="portfolio__wrapper">
+        <article>
+          <h3>App: Nx+Angular+Nest</h3>
+          <a href="https://www.youtube.com/channel/UCE8ux2eOsw_X7XVrI5mpYkg" class="portfolio__item">
+            <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/svvs.jpg"
+              alt="App: Nx+Angular+Nest">
+          </a>
+          <a href="https://github.com/bongoman-by/svvs">On my github</a>
+        </article>
+        <article>
+          <h3>Music platform: Next+Nest+TS</h3>
+          <a href="https://www.youtube.com/watch?v=A0CfYSVzAZI" class="portfolio__item">
+            <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/music-platform.jpg"
+              alt="Music platform">
+          </a>
+          <a href="https://github.com/bongoman-by/music-platform">On my github</a>
+        </article>
+        <article>
+          <h3>Barinb: Angular+NG+NGRX+JEST+RXJS</h3>
+          <a href="https://medium.com/fafnur/%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-angular-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-3dca4a11fe9"
+            class="portfolio__item">
+            <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/barinb.gif"
+              alt="Barinb">
+          </a>
+          <a href="https://github.com/bongoman-by/barinb">On my github</a>
+        </article>
+        <article>
+          <a href="https://app-admin-pro.herokuapp.com/login">
+            <h3>Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN</h3>
+          </a>
+          <a href="https://www.udemy.com/course/angular-avanzado-fernando-herrera/learn/lecture/8905606?start=0#overview"
+            class="portfolio__item">
+            <img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-avanzado.jpg"
+              alt="Angular Avanzado">
+          </a>
+          <a href="https://github.com/bongoman-by/angular-adv">On my github</a>
+        </article>
+        <article>
+          <h3>Angular - The Complete Guide (2022 Edition)</h3>
+          <a href="https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/17862122?start=45#overview"
+            class="portfolio__item">
+            <img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-complete-guide.jpg"
+              alt="Angular - The Complete Guide">
+          </a>
+          <a href="https://course-recipe-book-f565d.web.app/auth">Site of project</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="code" id="code">
+    <div class="container">
+      <div class="code__wrapper">
+        <div class="code__text">
+          <h2 class="title title_fz16 code_subtitle">Code example</h2>
+          <div class="divider"></div>
+          <div class="title code__title"><a href="https://www.codewars.com/kata/52efefcbcdf57161d4000091">Count
+              characters in your string kata from codewars</a></div>
+
+          <p class="code__descr title_fz14"><strong>The main idea is to count all the occurring characters in
+              a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}. What if the string is
+              empty? Then the result should be empty object literal, {}.</strong></p>
+          <p class="code__descr title_fz14">function count (string) { return string.split('').reduce((acc, n) =>
+            (acc[n] = (acc[n] || 0) + 1, acc), {}); }</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="languages" id="languages">
+    <div class="container">
       <h2 class="title title_fz16 title__section__title">Languages</h2>
       <div class="divider"></div>
-      <div class="price-list__wrapper">
-          <div class="price-list__item">
-              <h3 class="price-list__item-title title_fz14b">Russian </h3>
-              <div class="price-list__item-price title_fz14b">Native</div>
-          </div>
-          <div class="price-list__item">
-              <h3 class="price-list__item-title title_fz14b">English</h3>
-              <div class="price-list__item-price title_fz14b">A2</div>
-           </div>
-          <div class="price-list__item">
-              <h3 class="price-list__item-title title_fz14b">Spanish</h3>
-              <div class="price-list__item-price title_fz14b">B1</div>
-          </div>
-      </div>  
-  </div>
-</section>
-<section class="contacts">
-  <div class="container">
+      <div class="languages-list__wrapper">
+        <div class="languages-list__item">
+          <h3 class="languages-list__item-title title_fz14b">Russian </h3>
+          <div class="languages-list__item-languages title_fz14b">Native</div>
+        </div>
+        <div class="languages-list__item">
+          <h3 class="languages-list__item-title title_fz14b">English</h3>
+          <div class="languages-list__item-languages title_fz14b">A2</div>
+        </div>
+        <div class="languages-list__item">
+          <h3 class="languages-list__item-title title_fz14b">Spanish</h3>
+          <div class="languages-list__item-languages title_fz14b">B1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contacts" id="contacts">
+    <div class="container">
       <div class="contacts__wrapper">
-          <div class="contacts__photo"><img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/1.jpg" alt="my photo"></div>
-          <div class="contacts__descr">
-              <h2 class="title title_fz16 contacts_subtitle">Contact information</h2>
-              <div class="title contacts__title">Contact with me</div>
-              <div class="divider"></div>
-              <div class="contacts__social">
-                  <a href="https://www.facebook.com/profile.php?id=100010920397922" class="contacts__link">
-                      <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/facebook.svg" alt="facebook">
-                  </a>
-                  <a href="https://t.me/bongomanES" class="contacts__link">
-                      <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/telegram.svg" alt="telegram">
-                  </a>
-                  <a href="https://github.com/bongoman-by" class="contacts__link">
-                      <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/github.svg" alt="github">
-                  </a>
-                  <a href="https://www.linkedin.com/in/sergey-klyuchnikov-948999141" class="contacts__link">
-                    <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/linkedin.svg" alt="LinkedIn">
-                </a>
-                <a href="https://discord.gg/sFV4uTJY" class="contacts__link">
-                  <img src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/icons/social/discord.svg" alt="discord">
-              </a>
-              </div>
-              <div class="title title_fz14b contacts__text">
-                  Leave your dates end I'll answer you:
-              </div>
-              <form action="#" class="contacts__form">
-                  <div class="contacts__input">
-                      <input required name="name" id="name" type="text">
-                      <label for="name">Your name</label>
-                  </div>
-                  <div class="contacts__input">
-                      <input required name="email" id="email" type="email">
-                      <label for="email">Your email</label>
-                  </div>
-                  <div class="contacts__textarea">
-                      <textarea name="text" id="text"></textarea>
-                      <label for="text">Your message</label>
-                  </div>
-                    <div class="contacts__triggers">
-                  <div>
-                      <button class="btn title_fz14b btn_color contacts__triggers-btn">Send</button>
-                  </div>
-              </div>
-              </form>
+        <div class="contacts__photo"><img
+            src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/1.jpg" alt="my photo">
+        </div>
+        <div class="contacts__descr">
+          <h2 class="title title_fz16 contacts_subtitle">Contact information</h2>
+          <div class="title contacts__title">Contact with me</div>
+          <div class="divider"></div>
+          <div class="social-icons contacts__social"></div>
+          <div class="title title_fz14b contacts__text">
+            Leave your dates end I'll answer you:
           </div>
+          <form action="#" class="contacts__form">
+            <div class="contacts__input">
+              <input required name="name" id="name" type="text">
+              <label for="name">Your name</label>
+            </div>
+            <div class="contacts__input">
+              <input required name="email" id="email" type="email">
+              <label for="email">Your email</label>
+            </div>
+            <div class="contacts__textarea">
+              <textarea name="text" id="text"></textarea>
+              <label for="text">Your message</label>
+            </div>
+            <div class="contacts__triggers">
+              <div>
+                <button class="btn title_fz14b btn_color contacts__triggers-btn">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
 
       </div>
-  </div>
-</section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>

@@ -1,0 +1,34 @@
+.skills {
+  padding-top: 120px;
+}
+
+.skills__subtitle {
+  text-align: center;
+}
+
+.skills__wrapper {
+  padding: 60px 11px 0 11px;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 270px);
+  column-gap: 13px;
+}
+.skills__item {
+  padding: 30px;
+  border: 1px solid;
+}
+
+.skills__item-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 65px;
+}
+
+.skills__item h4 {
+  margin-top: 20px;
+}
+
+.skills__item-descr {
+  margin-top: 15px;
+}

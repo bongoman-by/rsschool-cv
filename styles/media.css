@@ -1,0 +1,235 @@
+@media (max-width: 1370px) {
+  .progress __wrapper {
+    grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 300px);
+    column-gap: 25px;
+  }
+  .contacts__wrapper {
+    padding: 0 10px 0 10px;
+    grid-template-columns: 400px 505px;
+    justify-content: space-evenly;
+  }
+  .contacts__form {
+    margin-top: 30px;
+    grid-template: 45px 190px / repeat(2, 45%);
+  }
+}
+
+@media (max-width: 1270px) {
+  .container {
+    max-width: 960px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidepanel {
+    display: none;
+  }
+  .about__wrapper {
+    column-gap: 40px;
+    margin: 40px auto auto 0;
+  }
+  .resume__wrapper {
+    padding: 40px auto 0 auto;
+    grid-template-columns: repeat(2, 292px);
+  }
+
+  .skills__wrapper {
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows: repeat(3, 270px);
+  }
+  .portfolio__wrapper {
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-auto-rows: 280px;
+    justify-content: space-around;
+    row-gap: 35px;
+  }
+  .portfolio__wrapper .horizonal,
+  .portfolio__wrapper .vertical {
+    grid-row: unset;
+    grid-column: unset;
+  }
+  .contacts__wrapper {
+    padding: 0;
+    grid-template-columns: 400px 520px;
+  }
+
+  .contacts__form {
+    grid-template: 45px 190px 45px / repeat(2, 250px);
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .title_fz36 {
+    font-size: 30px;
+  }
+
+  .skills {
+    padding-top: 40px;
+  }
+
+  .skills__wrapper {
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(4, 270px);
+  }
+  .progress __wrapper {
+    margin-top: 40px;
+    grid-template: repeat(3, minmax(70px, auto)) / repeat(2, 300px);
+    column-gap: 25px;
+    justify-content: center;
+  }
+
+  .languages-list__wrapper {
+    padding: 20px 0 0 0;
+    grid-template: repeat(3, 44px) / repeat(2, 300px);
+  }
+
+  .contacts__wrapper {
+    grid-template-columns: 300px 400px;
+  }
+  .contacts__form {
+    grid-template: 45px 190px 45px / repeat(2, 195px);
+  }
+  .contacts____btn {
+    padding: 8px 25px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .title_fz48 {
+    font-size: 28px;
+  }
+  .promo {
+    padding-left: 10px;
+  }
+
+  .promo__title {
+    line-height: 39px;
+    width: 260px;
+  }
+
+  .about__wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "side "
+      "head"
+      "foot";
+  }
+
+  .about__text {
+    margin-top: 46px;
+  }
+
+  .resume {
+    padding-top: 45px;
+  }
+
+  .resume__wrapper {
+    padding: 40px 0 0 0;
+    grid-template-columns: repeat(1, 292px);
+    column-gap: 10px;
+  }
+
+  .skills {
+    margin-top: 40px;
+  }
+
+  .skills__wrapper {
+    column-gap: 5px;
+  }
+
+  .progress__wrapper {
+    grid-template: repeat(6, minmax(70px, auto)) / repeat(1, 300px);
+    column-gap: 25px;
+    justify-content: center;
+  }
+
+  .portfolio {
+    padding-top: 40px;
+  }
+
+  .portfolio__wrapper {
+    row-gap: 20px;
+  }
+
+  .languages-list {
+    padding-top: 40px;
+  }
+
+  .languages-list__wrapper {
+    grid-template-columns: repeat(auto-fit, 300px);
+    row-gap: 20px;
+    justify-content: space-around;
+  }
+
+  .contacts {
+    padding-top: 40px;
+  }
+  .contacts__photo {
+    display: none;
+  }
+  .contacts__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .contacts__form {
+    grid-template: 45px 190px 45px / repeat(2, 250px);
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .title_fz48 {
+    font-size: 26px;
+  }
+  .hamburger {
+    right: 20px;
+  }
+  .menu__block {
+    width: 250px;
+  }
+
+  .promo_btns {
+    margin-top: 30px;
+  }
+
+  .btn {
+    padding: 12px 30px;
+  }
+  .skills__wrapper {
+    grid-template-columns: repeat(1, 270px);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .contacts {
+    padding-bottom: 50px;
+  }
+
+  .contacts__form {
+    grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+  }
+  .contacts__textarea {
+    grid-column: unset;
+    width: 100%;
+  }
+  .contacts__triggers {
+    grid-column: unset;
+    grid-template-columns: 1fr;
+    column-gap: unset;
+    row-gap: 20px;
+  }
+  .contacts__triggers-btn {
+    max-width: 220px;
+    margin: 0 auto;
+    grid-row: 2 / 3;
+  }
+}
