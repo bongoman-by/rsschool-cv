@@ -18,13 +18,19 @@
   border: 2px solid;
   border-radius: 5px;
   border-color: var(--color-blue-500);
+  background-color: var(--color-grey-100);
 }
 
 .skills__item-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 7rem;
+}
+
+.skills__item-icon img {
+  width: 150px;
+  height: 150px;
 }
 
 .skills__item h4 {
