@@ -24,10 +24,20 @@
   .sidepanel {
     display: none;
   }
+
+  .promo {
+    min-height: 18rem;
+  }
+
+  .promo__photo {
+    display: none;
+  }
+
   .about__wrapper {
     column-gap: 40px;
     margin: 40px auto auto 0;
   }
+
   .resume__wrapper {
     padding: 40px auto 0 auto;
     grid-template-columns: repeat(2, 292px);
@@ -37,17 +47,20 @@
     grid-template-columns: repeat(3, 270px);
     grid-template-rows: repeat(3, 270px);
   }
+
   .portfolio__wrapper {
     grid-template-columns: repeat(auto-fit, 280px);
     grid-auto-rows: 280px;
     justify-content: space-around;
     row-gap: 35px;
   }
+
   .portfolio__wrapper .horizonal,
   .portfolio__wrapper .vertical {
     grid-row: unset;
     grid-column: unset;
   }
+
   .contacts__wrapper {
     padding: 0;
     grid-template-columns: 400px 520px;

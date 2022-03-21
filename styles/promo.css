@@ -1,36 +1,35 @@
 .promo {
-  min-height: 100vh;
+  min-height: 30rem;
   position: relative;
   background-color: var(--color-grey-100);
-  padding-top: 206px;
-  padding-left: 50px;
+  padding-top: 8rem;
+  padding-left: 1rem;
 }
 
 .promo__wrapper {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.promo__photo img {
+  border-radius: 5px;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+
+.promo__text {
+  width: 50rem;
 }
 
 .promo__title {
-  width: 45rem;
   margin-top: 1rem;
   text-shadow: 1px 1px 2px var(--color-grey-500);
 }
 
-.promo__subtitle {
-  position: relative;
-  padding-left: 10px;
-  z-index: 2;
-}
-.promo__subtitle:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -25%;
-  left: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 100%;
-  background: var(--main-color);
+.promo__text .subtitle:before {
+  top: -15%;
 }
 
 .promo__contacts {

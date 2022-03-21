@@ -51,7 +51,7 @@
   z-index: 2;
 }
 
-.about__skill__icon:before {
+/* .about__skill__icon:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -62,7 +62,7 @@
   border-radius: 100%;
   background: var(--main-color);
   top: 0;
-}
+} */
 
 .about__skill__title {
   padding-left: 20px;
