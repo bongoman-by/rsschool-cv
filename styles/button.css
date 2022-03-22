@@ -9,3 +9,30 @@
   background-color: var(--main-color);
   box-shadow: 0px 4px 4px var(--color-violet-500);
 }
+
+.btn__link {
+  display: flex;
+  justify-content: start;
+  padding: 5px;
+  align-items: center;
+  width: 8rem;
+}
+
+.btn__link__active .title {
+  color: var(--color-blue-500);
+}
+
+.btn__link__active .btn_icon {
+  padding-left: 20px;
+  transition: all 0.6s;
+}
+
+.btn__link__active svg path {
+  fill: var(--color-blue-500);
+}
+
+.btn_icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.6s;
+}

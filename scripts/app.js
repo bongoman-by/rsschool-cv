@@ -44,7 +44,21 @@ window.addEventListener("DOMContentLoaded", () => {
       item.innerHTML = vars.socialIconsHTML;
     });
   }
+
+  function buttonLinkHover() {
+    const btnLinkElement = document.querySelectorAll(".btn__link");
+    btnLinkElement.forEach((item, i) => {
+      item.addEventListener("mouseover", () => {
+        item.classList.add("btn__link__active");
+      });
+      item.addEventListener("mouseout", () => {
+        item.classList.remove("btn__link__active");
+      });
+    });
+  }
+
   hamburger();
   progress();
   setSocialIcons();
+  buttonLinkHover();
 });

@@ -55,8 +55,8 @@
     row-gap: 35px;
   }
 
-  .portfolio__wrapper .horizonal,
-  .portfolio__wrapper .vertical {
+  .portfolio__wrapper .first__horizontal,
+  .portfolio__wrapper .second__horizontal {
     grid-row: unset;
     grid-column: unset;
   }
