@@ -47,23 +47,3 @@
   font-weight: 700;
   line-height: 60px;
 }
-
-.title__section__title {
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-
-.title__section__title:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -25%;
-  width: 36px;
-  height: 36px;
-  border-radius: 100%;
-  background: var(--main-color);
-  top: -6px;
-  left: 50%;
-  transform: translateX(-50%);
-}

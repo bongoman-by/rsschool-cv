@@ -19,6 +19,16 @@ body {
   background-color: var(--main-background-color);
 }
 
+.anchor {
+  position: relative;
+}
+
+.anchor__link {
+  position: absolute;
+  display: block;
+  top: -3rem;
+}
+
 .container {
   width: 90rem;
   margin: 0 auto;
@@ -30,11 +40,6 @@ body {
   height: 0.2rem;
   background-color: var(--main-color);
   margin: 0;
-  margin-top: 1rem;
-}
-
-.divider__center {
-  margin: auto;
   margin-top: 1rem;
 }
 
@@ -62,4 +67,9 @@ body {
 
 .social__link:hover path {
   fill: var(--main-color);
+}
+
+.subtitle {
+  position: relative;
+  z-index: 2;
 }

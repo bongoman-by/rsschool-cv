@@ -102,7 +102,10 @@
       </div>
     </div>
   </section>
-  <section class="about" id="about">
+  <div class="anchor">
+    <a class="anchor__link" id="about"></a>
+  </div>
+  <section class="about">
     <div class="container">
       <div class="about__wrapper">
         <div class="about__photo">
@@ -137,12 +140,15 @@
       </div>
     </div>
   </section>
-  <section class="resume" id="resume">
+  <div class="anchor">
+    <a class="anchor__link" id="resume"></a>
+  </div>
+  <section class="resume">
     <div class="container">
-      <h2 class="title title_fz16b title__section__title">
+      <h2 class="title title_fz16b subtitle">
         Resume
       </h2>
-      <div class="divider divider__center"></div>
+      <div class="divider "></div>
       <div class="resume__wrapper">
         <div class="resume__column">
           <h3 class="title_fz20 subtitle">Education</h3>
@@ -220,10 +226,13 @@
       </div>
     </div>
   </section>
-  <section class="skills" id="skills">
+  <div class="anchor">
+    <a class="anchor__link" id="skills"></a>
+  </div>
+  <section class="skills">
     <div class="container">
       <h2 class="title title_fz16b subtitle">Skills</h2>
-      <div class="divider divider__center"></div>
+      <div class="divider "></div>
       <div class="skills__wrapper">
         <div class="skills__item">
           <div class="skills__item-icon"><img
@@ -278,10 +287,13 @@
     </div>
     </div>
   </section>
-  <section class="portfolio" id="portfolio">
+  <div class="anchor">
+    <a class="anchor__link" id="portfolio"></a>
+  </div>
+  <section class="portfolio">
     <div class="container">
       <h2 class="title title_fz16b subtitle">Courses and projects</h2>
-      <div class="divider divider__center"></div>
+      <div class="divider "></div>
       <div class="portfolio__wrapper">
         <article class="portfolio__item">
           <a href="https://www.youtube.com/channel/UCE8ux2eOsw_X7XVrI5mpYkg">
@@ -378,79 +390,70 @@
       </div>
     </div>
   </section>
-  <section class="code" id="code">
+  <div class="anchor">
+    <a class="anchor__link" id="code"></a>
+  </div>
+  <section class="code">
     <div class="container">
       <div class="code__wrapper">
-        <div class="code__text">
-          <h2 class="title title_fz16b subtitle">Code example</h2>
-          <div class="divider"></div>
-          <div class="title code__title"><a href="https://www.codewars.com/kata/52efefcbcdf57161d4000091">Count
-              characters in your string kata from codewars</a></div>
 
-          <p class="code__descr title_fz14"><strong>The main idea is to count all the occurring characters in
-              a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}. What if the string is
-              empty? Then the result should be empty object literal, {}.</strong></p>
-          <p class="code__descr title_fz14">function count (string) { return string.split('').reduce((acc, n) =>
-            (acc[n] = (acc[n] || 0) + 1, acc), {}); }</p>
+        <h2 class="title title_fz16b subtitle">Code example</h2>
+        <div class="divider"></div>
+        <div class="btn__link code__title">
+          <a class="title title_fz16b" href="https://www.codewars.com/kata/52efefcbcdf57161d4000091">Count
+            characters in your string kata from codewars</a>
+          <svg class="btn_icon" viewBox="0 0 24 24" size="24">
+            <path fill="currentColor"
+              d="M20.5 11.992c0-.276-.105-.535-.306-.737L14.77 5.832a.919.919 0 0 0-1.3 0l-.324.325a.919.919 0 0 0 0 1.3l3.394 3.395H4.42a.919.919 0 0 0-.92.919v.46c0 .507.411.918.92.918h12.12l-3.394 3.394a.919.919 0 0 0 0 1.3l.325.325c.359.359.94.359 1.3 0l5.423-5.422c.204-.205.306-.477.306-.754Z">
+            </path>
+          </svg>
         </div>
+        <p class="code__descr title_fz14"><strong>The main idea is to count all the occurring characters in
+            a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}. What if the string is
+            empty? Then the result should be empty object literal, {}.</strong></p>
+        <p class="code__text title_fz14">function count (string) { return string.split('').reduce((acc, n) =>
+          (acc[n] = (acc[n] || 0) + 1, acc), {}); }</p>
+
       </div>
     </div>
   </section>
-  <section class="languages" id="languages">
+  <div class="anchor">
+    <a class="anchor__link" id="languages"></a>
+  </div>
+  <section class="languages">
     <div class="container">
       <h2 class="title title_fz16b subtitle">Languages</h2>
       <div class="divider"></div>
-      <div class="languages-list__wrapper">
-        <div class="languages-list__item">
-          <h3 class="languages-list__item-title title_fz14b">Russian </h3>
-          <div class="languages-list__item-languages title_fz14b">Native</div>
+      <div class="languages__wrapper">
+        <div class="languages__item">
+          <h3 class="title_fz20">Russian </h3>
+          <div class="title_fz14b">Native</div>
         </div>
-        <div class="languages-list__item">
-          <h3 class="languages-list__item-title title_fz14b">English</h3>
-          <div class="languages-list__item-languages title_fz14b">A2</div>
+        <div class="languages__item">
+          <h3 class="title_fz20">English</h3>
+          <div class="title_fz14b">A2</div>
         </div>
-        <div class="languages-list__item">
-          <h3 class="languages-list__item-title title_fz14b">Spanish</h3>
-          <div class="languages-list__item-languages title_fz14b">B1</div>
+        <div class="languages__item">
+          <h3 class="title_fz20">Spanish</h3>
+          <div class="title_fz14b">B1</div>
         </div>
       </div>
     </div>
   </section>
-  <section class="contacts" id="contacts">
+  <div class="anchor">
+    <a class="anchor__link" id="contacts"></a>
+  </div>
+  <section class="contacts">
     <div class="container">
       <div class="contacts__wrapper">
-        <div class="contacts__photo"><img
-            src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/1.jpg" alt="my photo">
-        </div>
-        <div class="contacts__descr">
-          <h2 class="title title_fz16b subtitle">Contact information</h2>
-          <div class="title contacts__title">Contact with me</div>
-          <div class="divider"></div>
-          <div class="social-icons contacts__social"></div>
-          <div class="title title_fz14b contacts__text">
-            Leave your dates end I'll answer you:
+        <h2 class="title title_fz16b subtitle">Contact information</h2>
+        <div class="divider"></div>
+        <div class="contacts__info">
+          <div class="contacts__photo"><img
+              src="https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/photo/1.jpg" alt="my photo">
           </div>
-          <form action="#" class="contacts__form">
-            <div class="contacts__input">
-              <input required name="name" id="name" type="text">
-              <label for="name">Your name</label>
-            </div>
-            <div class="contacts__input">
-              <input required name="email" id="email" type="email">
-              <label for="email">Your email</label>
-            </div>
-            <div class="contacts__textarea">
-              <textarea name="text" id="text"></textarea>
-              <label for="text">Your message</label>
-            </div>
-            <div class="contacts__triggers">
-              <div>
-                <button class="btn title_fz14b btn_color contacts__triggers-btn">Send</button>
-              </div>
-            </div>
-          </form>
+          <div class="social-icons contacts__social"></div>
         </div>
-
       </div>
     </div>
   </section>
