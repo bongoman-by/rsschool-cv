@@ -102,6 +102,20 @@
     font-size: 28px;
   }
 
+  .divider {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .subtitle {
+    margin: auto;
+    text-align: center;
+  }
+
+  .subtitle:before {
+    left: 48%;
+  }
+
   .promo {
     padding-left: 10px;
   }
@@ -150,23 +164,16 @@
   }
 
   .portfolio__wrapper {
-    row-gap: 20px;
+    row-gap: 1rem;
+    grid-template: repeat(1, 20rem) / repeat(1, 20rem);
   }
 
   .languages__wrapper {
-    grid-template: repeat(3, 5rem) / repeat(1, 5rem);
-    row-gap: 5px;
-    width: 5rem;
-  }
-
-  .languages-list__wrapper {
-    grid-template-columns: repeat(auto-fit, 300px);
-    row-gap: 20px;
-    justify-content: space-around;
-  }
-
-  .contacts {
-    padding-top: 40px;
+    grid-template: repeat(3, 3rem) / repeat(1, 1rem);
+    padding: 1rem 4rem 0 1rem;
+    justify-content: center;
+    align-content: center;
+    width: auto;
   }
 
   .code__title {
@@ -180,13 +187,12 @@
   .code__text {
     width: 18rem;
   }
-
-  .contacts__wrapper {
-    grid-template-columns: 1fr;
+  .contacts {
+    padding-top: 2rem;
   }
-
   .contacts__info {
     flex-direction: column;
+    margin: auto;
   }
 }
 
