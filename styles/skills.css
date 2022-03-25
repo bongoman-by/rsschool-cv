@@ -33,6 +33,11 @@
   height: 150px;
 }
 
+.skills__item-icon img:hover {
+  animation: heartBeat;
+  animation-duration: 4s;
+}
+
 .skills__item h4 {
   margin-top: 1rem;
   text-align: center;
