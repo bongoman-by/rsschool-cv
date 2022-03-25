@@ -63,8 +63,12 @@ return string.split('').reduce((acc, n) => (acc[n] = (acc[n] || 0) + 1, acc), {}
     ![certificate](https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-avanzado.jpg)
 
 - [Angular - The Complete Guide (2022 Edition)](https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/17862122?start=45#overview)
+
   - [Site of the project](https://course-recipe-book-f565d.web.app/auth)
     ![certificate](https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/angular-complete-guide.jpg)
+
+- [100 Days Of Code - 2022 Web Development Bootcamp](https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/learn/lecture/27752222?start=0#overview)
+  ![certificate](https://raw.githubusercontent.com/bongoman-by/rsschool-cv/main/assets/courses/100-days-of-code.jpg)
 
 ---
 
