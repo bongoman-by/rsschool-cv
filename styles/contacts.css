@@ -1,0 +1,22 @@
+.contacts {
+  padding: 3rem 0 3rem 0;
+  background-color: var(--color-grey-100);
+}
+
+.contacts__photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+
+.contacts__info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 18rem;
+}

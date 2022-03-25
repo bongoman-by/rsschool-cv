@@ -1,0 +1,37 @@
+.about {
+  min-height: 15rem;
+}
+.about__wrapper {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-template-areas:
+    "side head"
+    "side foot";
+  column-gap: 1rem;
+  margin: 3rem 26rem auto 0;
+}
+
+.about__photo {
+  grid-area: side;
+}
+
+.about__photo img {
+  border-radius: 5px;
+  animation: fadeInRight;
+  animation-duration: 3s;
+  border-radius: 5px;
+}
+
+.about__text {
+  grid-area: head;
+  padding-top: 0.5rem;
+}
+
+.about__text .subtitle {
+  padding-left: 15px;
+}
+
+.about__descr,
+.about__title {
+  margin-top: 20px;
+}

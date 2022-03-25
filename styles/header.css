@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-grey-500);
+  align-items: center;
+  padding: 5px 30px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+#page-logo a {
+  padding: 10px;
+  color: var(--text--color-invert);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px var(--color-grey-100);
+}
+
+#page-logo a:hover {
+  color: var(--main-color);
+}
+
+.hamburger {
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: var(--text--color-invert);
+}
+
+.hamburger span:hover {
+  background: var(--main-color);
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --main-background-color: rgb(243, 244, 245);
+  --main-color: rgb(238, 122, 64);
+  --text-color: rgb(44, 41, 44);
+  --text--color-invert: rgb(255, 255, 255);
+  --color-grey-100: rgb(223, 227, 231);
+  --color-grey-500: rgb(117, 128, 138);
+  --color-blue-500: rgb(0, 125, 251);
+  --color-violet-500: rgb(128, 92, 245);
+  color: var(--text-color);
+  background-color: var(--main-background-color);
+}
+
+.anchor {
+  position: relative;
+}
+
+.anchor__link {
+  position: absolute;
+  display: block;
+  top: -3rem;
+}
+
+.container {
+  width: 90rem;
+  margin: 0 auto;
+  margin-left: 8rem;
+}
+
+.divider {
+  width: 6rem;
+  height: 0.2rem;
+  background-color: var(--main-color);
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+.subtitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -12%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: var(--main-color);
+}
+
+.social__link {
+  text-decoration: none;
+}
+
+.social__link:hover path {
+  fill: var(--main-color);
+}
+
+.subtitle {
+  position: relative;
+  z-index: 2;
+}

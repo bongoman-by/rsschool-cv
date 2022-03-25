@@ -1,0 +1,30 @@
+.code {
+  min-height: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.code__title {
+  margin-top: 1rem;
+  width: 30rem;
+}
+
+.code__title a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.code__descr {
+  margin-top: 1rem;
+  width: 50rem;
+  margin-bottom: 1rem;
+}
+
+.code__text {
+  padding: 0.5rem;
+  width: 36rem;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--color-grey-100);
+}

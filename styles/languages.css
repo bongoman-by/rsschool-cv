@@ -1,0 +1,39 @@
+.languages {
+  padding-top: 3rem;
+  background-color: var(--color-blue-500);
+  color: var(--text--color-invert);
+}
+
+.languages__wrapper {
+  padding: 3rem 3rem 0 3rem;
+  display: grid;
+  grid-template: repeat(1, 5rem) / repeat(3, 5rem);
+  justify-content: space-between;
+  align-content: space-between;
+  row-gap: 15px;
+  width: 20rem;
+}
+
+.languages__item {
+  position: relative;
+}
+
+.languages__item h3:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 15%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+}
+
+/* languages-languages {
+  text-align: end;
+}
+
+languages-descr {
+  grid-column: 1 / 3;
+} */

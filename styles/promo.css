@@ -1,0 +1,79 @@
+.promo {
+  min-height: 30rem;
+  position: relative;
+  background-color: var(--color-grey-100);
+  padding-top: 6rem;
+  padding-left: 1rem;
+}
+
+.promo__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.promo__photo img {
+  border-radius: 5px;
+  animation: fadeInLeft;
+  animation-duration: 3s;
+}
+
+.promo__text {
+  width: 50rem;
+}
+
+.promo__title {
+  margin-top: 1rem;
+  text-shadow: 1px 1px 2px var(--color-grey-500);
+}
+
+.promo__text .subtitle:before {
+  top: -15%;
+}
+
+.promo__contacts {
+  display: flex;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.promo__contacts a {
+  text-decoration: none;
+}
+
+.promo__phone,
+.promo__email {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  padding-right: 10px;
+}
+
+.promo__phone:hover,
+.promo__email:hover {
+  color: var(--main-color);
+}
+
+.promo__svg {
+  min-width: 40px;
+  width: 40px;
+  fill: var(--text-color);
+}
+
+.promo__btns {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.promo__link {
+  color: var(--text--color-invert);
+  text-decoration: none;
+  background-color: var(--color-blue-500);
+}
+
+.promo__link:hover {
+  color: var(--main-color);
+}
