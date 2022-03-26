@@ -1,1 +1,1 @@
-https://bongoman-by.github.io/rsschool-cv
+https://effervescent-arithmetic-74cb8c.netlify.app
