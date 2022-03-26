@@ -1,4 +1,4 @@
-import * as vars from "./variables.js";
+import * as vars from "../scripts/variables.js";
 
 window.addEventListener("DOMContentLoaded", () => {
   function hamburger() {
